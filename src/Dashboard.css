@@ -1,0 +1,7 @@
+.dashboard__content{
+    display: flex;
+}
+.dashboard__right{
+    display: flex;
+    flex:0.35;
+}

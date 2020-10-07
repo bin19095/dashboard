@@ -1,0 +1,49 @@
+.sidebar{
+    margin-top: 9px;
+    display:flex;
+    overflow-y: auto;
+    width:250px;
+    Height:100%;
+    position: fixed;
+    font-weight: 600;
+    top: 0px;
+    background-color: #202324;
+    color: white;
+    z-index: 10;   
+    
+}
+.sprint{
+    display:none;
+
+
+}
+a:hover + .sprint{
+   display:block;
+    color: white;
+    z-index: 200;
+}
+.side__navbar{
+    margin-top:30%;
+}
+.side__navbar > ul li:hover {
+
+    color: lightblue;
+    padding-top:15px;
+    padding-bottom: 10px;
+    transition: transform 0.5s ease-in-out;
+    transform: scaleX(1.1);
+    border-bottom: 3px solid lightblue;
+    background-color: ;
+}
+
+.side__navbar > ul li {
+    padding-top: 7px;;
+    list-style-type: none !important;
+    text-decoration: none ;
+   
+}
+.sidebar__mediaIcon{
+    position: absolute;
+    bottom: 2%;
+    
+}

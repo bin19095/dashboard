@@ -1,0 +1,52 @@
+.content3{
+    margin:auto;
+    margin-top:0;
+    display: flex;
+    flex-direction: column;
+  
+
+}
+.image__part{
+    position: relative;
+    margin-top:5%;
+    width: 500px;
+    height:700px;
+    display: flex;
+    margin-left:10%;
+    justify-self: center;
+    align-content: center;
+    object-fit: contain;
+}
+.image__part > .next__step, .prev__step {
+  
+    font-size: 20px;
+    background-color: grey;
+    opacity: 0.4;
+    color: white;
+}
+.image__part > .next__step{
+    top:50%;
+    right:0px;
+    left:250%;
+    position: absolute;
+}
+.image__part > .prev__step{
+    top:50%;
+    right:300%;
+    left:-80px;
+    position: absolute;
+}
+
+
+.next__step > button{
+    width:20px;
+    height: 5px;
+}
+.prev__step > button{
+    width:20px;
+    height: 5px;
+}
+.image__part2{
+    display: flex;
+    margin: auto;
+}
